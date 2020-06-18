@@ -1,0 +1,74 @@
+.main-content{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.botoes{
+  margin: 20px;
+  display: flex;
+  flex-direction: column;
+}
+
+.btn{
+  margin: 0px 5px;
+  padding: 10px;
+  border: none;
+  background-color: #ff9800;
+  font-size: 16px;
+  font-weight: bold;
+  transition: filter 0.5s;
+}
+
+.btn:hover{
+  filter: brightness(90%);
+  cursor: pointer;
+}
+
+.btn:disabled{
+  color: #000;
+  background-color: gray;
+  cursor: initial;
+  opacity: 1;
+}
+
+.book-content{
+  margin-right: 10px;
+}
+
+.App-pages {
+  height: 500px;
+  width: 950px;
+  perspective: 5000px;
+  -ms-user-select: none;
+  -moz-user-select: none;
+  -webkit-user-select: none;
+  user-select: none;
+}
+
+.App-page {
+  display: grid;
+  grid-template: "esquerdo direito"
+                / 1fr 1fr;
+  color: white;
+  height: 100%;
+  
+}
+
+.App-page_green {
+  background: #4caf50;
+}
+
+.App-page_blue {
+  background: #2196f3;
+}
+
+.App-page_orange {
+  background: #ff9800;
+}
+
+.btnDown{
+  margin: 10px 0px;
+  display: flex;
+  justify-content: space-around;
+}

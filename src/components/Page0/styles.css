@@ -1,0 +1,11 @@
+.content-esquerda{
+  grid-area: esquerdo;
+  background-image: url("../../images/paperL.png");
+  background-size: contain;
+}
+
+.content-direita{
+  grid-area: direito;
+  background-image: url("../../images/paperR.png");
+  background-size: contain;
+}
