@@ -21,6 +21,10 @@ header i{
   font-size: 1.3em;
 }
 
+.fa-laugh-beam{
+  transition: color 0.3s;
+}
+
 .fa-laugh-beam:hover{
   color: #F3C623;
 }

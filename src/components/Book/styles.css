@@ -5,6 +5,7 @@
 }
 
 .botoes{
+  width: 300px;
   margin: 20px;
   display: flex;
   flex-direction: column;
@@ -14,7 +15,7 @@
   margin: 0px 5px;
   padding: 10px;
   border: none;
-  background-color: #ff9800;
+  background-color: #F3C623;
   font-size: 16px;
   font-weight: bold;
   transition: filter 0.5s;
@@ -27,7 +28,7 @@
 
 .btn:disabled{
   color: #000;
-  background-color: gray;
+  background-color: rgb(185, 185, 185);
   cursor: initial;
   opacity: 1;
 }
@@ -52,7 +53,6 @@
                 / 1fr 1fr;
   color: white;
   height: 100%;
-  
 }
 
 .App-page_green {

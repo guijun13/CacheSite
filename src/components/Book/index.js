@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import FlippingPages from 'flipping-pages'
 import 'flipping-pages/FlippingPages.css'
 import Page0 from '../Page0';
+import Page1 from '../Page1';
 
 import './styles.css';
 
@@ -71,24 +72,19 @@ class Book extends Component {
           <h2 className="sumario">
             Sumário
           </h2>
-          <p>
-            Para manipular o livro, arraste com o mouse nas páginas,
-             ou clique nos botões abaixo do livro,
-             ou clique no conteúdo do sumário abaixo
-          </p>
           <button
             className="btn"
             onClick={this.page0}
             disabled={this.state.selected === this.state.page0}
           >
-            Conteúdo 0
+            Capa e instruções
           </button>
           <button
             className="btn"
             onClick={this.page1}
             disabled={this.state.selected === this.state.page1}
           >
-            Conteúdo 1
+            A memória cache
           </button>
           <button
             className="btn"
@@ -115,6 +111,7 @@ class Book extends Component {
           touch-action="none"
         >
         <Page0 />
+        <Page1 />
         <div className="App-page App-page_green">1</div>
         <div className="App-page App-page_blue">2</div>
         <div className="App-page App-page_orange">3</div>

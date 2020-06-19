@@ -1,11 +1,41 @@
 .content-esquerda{
   grid-area: esquerdo;
-  background-image: url("../../images/paperL.png");
+  background-color: #FFF;
   background-size: contain;
+  border: 5px solid #849693;
+}
+
+.titulo{
+  font-family: Kalam, sans-serif;
+  margin-top: 70px;
+  margin-right: 10px;
+  color: #000;
+  text-align: center;
 }
 
 .content-direita{
   grid-area: direito;
-  background-image: url("../../images/paperR.png");
+  background-color: #FFF;
   background-size: contain;
+  border: 5px solid #849693;
+}
+
+.instrucoes{
+  margin-top: 70px;
+  font-family: PT Sans, sans-serif;
+  color: #000;
+}
+
+.instrucoes h2{
+  text-align: center;
+}
+
+.instrucoes ul{
+  margin: 10px;
+  list-style: none;
+  font-size: 1.3em;
+}
+
+.instrucoes li{
+  padding-bottom: 10px;
 }
