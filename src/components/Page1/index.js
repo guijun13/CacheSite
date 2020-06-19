@@ -24,9 +24,10 @@ function Page1(){
                   seguintes, a alta velocidade de busca acelera o processo.
                 </p>
               </div>
+              <img src={img1} alt="Imagem processador, cache e memoria"/>
           </div>
           <div className="content-direita">
-            <img src={img1} alt=""/>
+            
             <div className="texto">
               <p>
                 O <b>Processador</b> faz o pedido, caso esteja na cache 

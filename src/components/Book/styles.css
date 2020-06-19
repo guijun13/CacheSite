@@ -15,7 +15,7 @@
   margin: 0px 5px;
   padding: 10px;
   border: none;
-  background-color: #F3C623;
+  background-color: #E9B90C;
   font-size: 16px;
   font-weight: bold;
   transition: filter 0.5s;
@@ -53,18 +53,6 @@
                 / 1fr 1fr;
   color: white;
   height: 100%;
-}
-
-.App-page_green {
-  background: #4caf50;
-}
-
-.App-page_blue {
-  background: #2196f3;
-}
-
-.App-page_orange {
-  background: #ff9800;
 }
 
 .btnDown{

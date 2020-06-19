@@ -3,6 +3,9 @@ import FlippingPages from 'flipping-pages'
 import 'flipping-pages/FlippingPages.css'
 import Page0 from '../Page0';
 import Page1 from '../Page1';
+import Page2 from '../Page2';
+import Page3 from '../Page3';
+import Page4 from '../Page4';
 
 import './styles.css';
 
@@ -11,13 +14,14 @@ class Book extends Component {
   constructor(props) {
     super(props)
 
-    this.totalPages = 4
+    this.totalPages = 5
     this.state = {
       selected: 0,
       page0: 0,
       page1: 1,
       page2: 2,
       page3: 3,
+      page4: 4,
     }
     this.handleSelectedChange = this.handleSelectedChange.bind(this)
     this.previous = this.previous.bind(this)
@@ -26,6 +30,7 @@ class Book extends Component {
     this.page1 = this.page1.bind(this)
     this.page2 = this.page2.bind(this)
     this.page3 = this.page3.bind(this)
+    this.page4 = this.page4.bind(this)
   }
 
   handleSelectedChange(selected) {
@@ -64,6 +69,11 @@ class Book extends Component {
     selected: state.page3 
     }))
   }
+  page4(){
+    this.setState(state => ({
+    selected: state.page4 
+    }))
+  }
 
   render() {
     return (
@@ -91,14 +101,21 @@ class Book extends Component {
             onClick={this.page2}
             disabled={this.state.selected === this.state.page2}
           >
-            Conteúdo 2
+            Armazenamento direto
           </button>
           <button
             className="btn"
             onClick={this.page3}
             disabled={this.state.selected === this.state.page3}
           >
-            Conteúdo 3
+            Armazenamento associativo
+          </button>
+          <button
+            className="btn"
+            onClick={this.page4}
+            disabled={this.state.selected === this.state.page4}
+          >
+            Armazenamento associativo por conjunto
           </button>
         </div>
 
@@ -112,9 +129,12 @@ class Book extends Component {
         >
         <Page0 />
         <Page1 />
-        <div className="App-page App-page_green">1</div>
+        <Page2 />
+        <Page3 />
+        <Page4 />
+        {/* <div className="App-page App-page_green">1</div>
         <div className="App-page App-page_blue">2</div>
-        <div className="App-page App-page_orange">3</div>
+        <div className="App-page App-page_orange">3</div> */}
         </FlippingPages>
 
         <div className="btnDown">
