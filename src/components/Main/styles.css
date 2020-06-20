@@ -1,5 +1,5 @@
 .content{
-  background-color: #f4f6ff;
+  background-color: var(--color-branco);
 }
 /* https://coolors.co/f4f6ff-f3c623-1bb4c5-1694a2-10375c */
 .main{
@@ -7,11 +7,11 @@
 }
 
 header{
-  background-color: #10375C;
+  background-color: var(--color-azulEscuro);
 }
 
 header .icons{
-  color: #f4f6ff;
+  color: var(--color-branco);
   margin-bottom: 10px;
   padding: 15px;
 }
@@ -26,5 +26,5 @@ header i{
 }
 
 .fa-laugh-beam:hover{
-  color: #F3C623;
+  color: var(--color-amarelo);
 }

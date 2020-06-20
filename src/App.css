@@ -5,6 +5,9 @@
   padding: 0;
   outline: 0;
   box-sizing: border-box;
+  --color-azulEscuro: #10375C;
+  --color-branco: #f4f6ff;
+  --color-amarelo: #F3C623;
 }
 
 body {
