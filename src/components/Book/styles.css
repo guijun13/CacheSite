@@ -13,16 +13,18 @@
 
 .btn{
   margin: 0px 5px;
-  padding: 10px;
+  padding: 7px;
   border: none;
-  background-color: #E9B90C;
+  /* background-color: #E9B90C; */
   font-size: 16px;
   font-weight: bold;
-  transition: filter 0.5s;
+  /* transition: filter 0.5s; */
+  /* transition: text-decoration 0.5s; */
 }
 
 .btn:hover{
   filter: brightness(90%);
+  /* text-decoration: underline; */
   cursor: pointer;
 }
 
@@ -32,6 +34,7 @@
   cursor: initial;
   opacity: 1;
 }
+
 
 .book-content{
   margin-right: 10px;
