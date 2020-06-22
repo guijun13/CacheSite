@@ -17,25 +17,6 @@ import Page12 from '../Page12';
 
 import './styles.css';
 
-// const pages = [['test.md', 'test2.md'], ['arq1.md', 'arq2.md']]
-// let currentPage = 0
-// let currentMarkdown = ['# test', '# test2']
-// let pagesMarkdown = []
-
-// async function getPageMD() {
-//   for (let i = 0; i < pages.length; i++) {
-//     pagesMarkdown.push(['', ''])
-
-//     await fetch(process.env.PUBLIC_URL + '/markdown/' + pages[currentPage][0]).then(async (response) => {
-//       currentMarkdown[i][0] = await response.text()
-  
-//       return await fetch(process.env.PUBLIC_URL + '/markdown/' + pages[currentPage][1]).then(async (response) => {
-//         currentMarkdown[i][1] = await response.text()
-//       })
-//     })
-//   }
-// }
-
 class Book extends Component {
 
   constructor(props) {
@@ -43,10 +24,6 @@ class Book extends Component {
 
     this.state = {
       selected: 0,
-      currentMarkdownLeft: '',
-      currentMarkdownRight: '',
-      currentPage: 0,
-      totalPages: pages.length,
       page0: 0,
       page1: 1,
       page2: 2,
@@ -80,8 +57,8 @@ class Book extends Component {
     this.page12 = this.page12.bind(this)
   }
 
-  handleSelectedChange(currentPage) {
-    this.setState({currentPage})
+  handleSelectedChange(selected) {
+    this.setState({selected})
   }
 
   previous() { 
@@ -142,22 +119,10 @@ class Book extends Component {
           </h2>
           <button
             className="btn"
-            onClick={() => this.selectPage(0)}
-            disabled={this.state.currentPage == 0}
+            onClick={this.page0}
+            disabled={this.state.selected === this.state.page0}
           >
             Capa e instruções
-          </button>
-          <button
-            className="btn"
-            onClick={this.testPage}
-          >
-            Test
-          </button>
-          <button
-            className="btn"
-            onClick={this.testPage}
-          >
-            Test2
           </button>
           <button
             className="btn"
@@ -227,7 +192,7 @@ class Book extends Component {
             onClick={this.page10}
             disabled={this.state.selected === this.state.page10}
           >
-            Origem das falhas(miss) 
+            Origem das falhas (miss) 
           </button>
           <button
             className="btn"
@@ -249,7 +214,7 @@ class Book extends Component {
         <FlippingPages
           className="App-pages"
           direction="horizontal"
-          selected={this.state.currentPage}
+          selected={this.state.selected}
           onSelectedChange={this.handleSelectedChange}
           touch-action="none"
         >
@@ -271,15 +236,15 @@ class Book extends Component {
         <div className="btnDown">
           <button
             className="btn"
-            onClick={this.previousPage}
-            disabled={!this.state.currentPage}
+            onClick={this.previous}
+            disabled={!this.state.selected}
           >
             Página anterior
           </button>
           <button
             className="btn"
-            onClick={this.nextPage}
-            disabled={this.state.currentPage + 1 === this.totalPages}
+            onClick={this.next}
+            disabled={this.state.selected + 1 === this.totalPages}
           >
             Próxima página
           </button>
