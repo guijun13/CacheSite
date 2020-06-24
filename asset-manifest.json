@@ -1,22 +1,23 @@
 {
   "files": {
     "main.css": "/CacheSite/static/css/main.1ea36995.chunk.css",
-    "main.js": "/CacheSite/static/js/main.3dfb7148.chunk.js",
-    "main.js.map": "/CacheSite/static/js/main.3dfb7148.chunk.js.map",
+    "main.js": "/CacheSite/static/js/main.120594af.chunk.js",
+    "main.js.map": "/CacheSite/static/js/main.120594af.chunk.js.map",
     "runtime-main.js": "/CacheSite/static/js/runtime-main.77a484c9.js",
     "runtime-main.js.map": "/CacheSite/static/js/runtime-main.77a484c9.js.map",
     "static/css/2.797b1609.chunk.css": "/CacheSite/static/css/2.797b1609.chunk.css",
-    "static/js/2.8ce534bf.chunk.js": "/CacheSite/static/js/2.8ce534bf.chunk.js",
-    "static/js/2.8ce534bf.chunk.js.map": "/CacheSite/static/js/2.8ce534bf.chunk.js.map",
+    "static/js/2.5940a33d.chunk.js": "/CacheSite/static/js/2.5940a33d.chunk.js",
+    "static/js/2.5940a33d.chunk.js.map": "/CacheSite/static/js/2.5940a33d.chunk.js.map",
     "index.html": "/CacheSite/index.html",
-    "precache-manifest.37488c863aea721cd403a1fccd0f8626.js": "/CacheSite/precache-manifest.37488c863aea721cd403a1fccd0f8626.js",
+    "precache-manifest.4d020b320baf6f9815d6c224987c1d9d.js": "/CacheSite/precache-manifest.4d020b320baf6f9815d6c224987c1d9d.js",
     "service-worker.js": "/CacheSite/service-worker.js",
     "static/css/2.797b1609.chunk.css.map": "/CacheSite/static/css/2.797b1609.chunk.css.map",
     "static/css/main.1ea36995.chunk.css.map": "/CacheSite/static/css/main.1ea36995.chunk.css.map",
-    "static/js/2.8ce534bf.chunk.js.LICENSE.txt": "/CacheSite/static/js/2.8ce534bf.chunk.js.LICENSE.txt",
+    "static/js/2.5940a33d.chunk.js.LICENSE.txt": "/CacheSite/static/js/2.5940a33d.chunk.js.LICENSE.txt",
     "static/media/LRU.jpeg": "/CacheSite/static/media/LRU.dcf5f8f6.jpeg",
     "static/media/aleatorio.png": "/CacheSite/static/media/aleatorio.ff9c67b4.png",
     "static/media/diagrama1.png": "/CacheSite/static/media/diagrama1.581af9be.png",
+    "static/media/diagrama2.png": "/CacheSite/static/media/diagrama2.fff914bd.png",
     "static/media/fifo.png": "/CacheSite/static/media/fifo.89478889.png",
     "static/media/img1.png": "/CacheSite/static/media/img1.cde4ed67.png",
     "static/media/img2.png": "/CacheSite/static/media/img2.503e11c3.png",
@@ -27,8 +28,8 @@
   "entrypoints": [
     "static/js/runtime-main.77a484c9.js",
     "static/css/2.797b1609.chunk.css",
-    "static/js/2.8ce534bf.chunk.js",
+    "static/js/2.5940a33d.chunk.js",
     "static/css/main.1ea36995.chunk.css",
-    "static/js/main.3dfb7148.chunk.js"
+    "static/js/main.120594af.chunk.js"
   ]
 }
