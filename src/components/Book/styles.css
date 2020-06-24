@@ -16,15 +16,18 @@
 }
 
 .btn{
+  background-color: #F4F6FF;
   margin: 0px 5px;
   padding: 7px;
   border: none;
-  /* background-color: #E9B90C; */
   font-size: 16px;
   font-weight: bold;
   text-align: left;
   transition: filter 0.3s;
-  /* transition: text-decoration 0.5s; */
+}
+
+.Next, .Previous{
+  background-color: var(--color-amarelo);
 }
 
 .btn:hover{

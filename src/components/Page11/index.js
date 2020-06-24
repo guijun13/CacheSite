@@ -32,6 +32,7 @@ Esse nível é presente em processadores mais recentes.
 Tipo de cache que está na mesma patilha do processador.
 
 - Reduz a atividade do barramento externo, diminuindo o tempo de execução a aumentando o desempenho do sistema.
+
 - Enquanto faz acessos à cache interna o barramento fica livre para efetuar outras transferências.
 
 ## Cache off-chip

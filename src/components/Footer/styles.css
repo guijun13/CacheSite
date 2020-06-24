@@ -1,0 +1,11 @@
+.footer{
+  padding: 10px;
+  background-color: var(--color-azulEscuro);
+  color: var(--color-branco);
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.footer li{
+  font-size: 16px;
+}

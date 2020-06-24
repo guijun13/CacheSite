@@ -1,7 +1,6 @@
 .content{
   background-color: var(--color-branco);
 }
-/* https://coolors.co/f4f6ff-f3c623-1bb4c5-1694a2-10375c */
 .main{
   height: 100vh;
 }
@@ -14,11 +13,13 @@ header .icons{
   color: var(--color-branco);
   margin-bottom: 10px;
   padding: 15px;
+  display: flex;
+  justify-content: center;
 }
 
 header i{
   margin: 0 10px;
-  font-size: 1.3em;
+  font-size: 1.5em;
 }
 
 .fa-laugh-beam{

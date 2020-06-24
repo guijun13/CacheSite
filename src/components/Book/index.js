@@ -185,14 +185,14 @@ class Book extends Component {
             onClick={this.page9}
             disabled={this.state.selected === this.state.page9}
           >
-            Política de escrita imgs
+            Política de escrita - Imagens
           </button>
           <button
             className="btn"
             onClick={this.page10}
             disabled={this.state.selected === this.state.page10}
           >
-            Origem das falhas (miss) 
+            Origem das falhas ("miss") 
           </button>
           <button
             className="btn"
@@ -235,14 +235,14 @@ class Book extends Component {
 
         <div className="btnDown">
           <button
-            className="btn"
+            className="btn Previous"
             onClick={this.previous}
             disabled={!this.state.selected}
           >
             Página anterior
           </button>
           <button
-            className="btn"
+            className="btn Next"
             onClick={this.next}
             disabled={this.state.selected + 1 === this.totalPages}
           >
