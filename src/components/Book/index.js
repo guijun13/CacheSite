@@ -199,14 +199,14 @@ class Book extends Component {
             onClick={this.page11}
             disabled={this.state.selected === this.state.page11}
           >
-            num de caches e Cache on-chip/off-chip
+            Número de caches e Cache on-chip/off-chip
           </button>
           <button
             className="btn"
             onClick={this.page12}
             disabled={this.state.selected === this.state.page12}
           >
-            Tipos e Caches unificadas/separadas
+            Tipos e Caches unificados/separados
           </button>
         </div>
 

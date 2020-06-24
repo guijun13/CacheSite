@@ -6,7 +6,7 @@
 }
 
 .titulo{
-  font-family: Kalam, sans-serif;
+  /* font-family: Kalam, sans-serif; */
   margin-top: 70px;
   margin-right: 10px;
   color: #000;
@@ -17,7 +17,7 @@
   grid-area: direito;
   background-color: #FFF;
   background-size: contain;
-  border: 5px solid #849693;
+  border: 15px solid #849693;
 }
 
 .instrucoes{
@@ -26,7 +26,7 @@
   color: #000;
 }
 
-.instrucoes h2{
+.instrucoes h1{
   text-align: center;
 }
 

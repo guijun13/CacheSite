@@ -5,13 +5,6 @@
   border: 5px solid #849693;
 }
 
-.titulo1{
-  font-family: PT Sans, sans-serif;
-  margin-top: 30px;
-  color: #000;
-  text-align: center;
-}
-
 .texto{
   margin: 10px 0 0 10px;
   font-family: PT Sans, sans-serif;
@@ -28,12 +21,4 @@
   background-color: #FFF;
   background-size: contain;
   border: 5px solid #849693;
-}
-
-.pergunta1{
-  margin-top: 10px;
-}
-
-.listaRespostas1{
-  padding-left: 25px;
 }

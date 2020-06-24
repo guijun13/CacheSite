@@ -4,6 +4,10 @@
   justify-content: space-between;
 }
 
+.sumario{
+  margin-bottom: 20px;
+}
+
 .botoes{
   width: 300px;
   margin: 20px;
@@ -18,7 +22,8 @@
   /* background-color: #E9B90C; */
   font-size: 16px;
   font-weight: bold;
-  /* transition: filter 0.5s; */
+  text-align: left;
+  transition: filter 0.3s;
   /* transition: text-decoration 0.5s; */
 }
 
@@ -63,4 +68,9 @@
   margin: 10px 0px;
   display: flex;
   justify-content: space-around;
+}
+
+img{
+  width: 400px;
+  max-height: 450px;
 }
