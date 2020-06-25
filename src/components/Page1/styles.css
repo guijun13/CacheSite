@@ -22,3 +22,7 @@
   background-size: contain;
   border: 5px solid #849693;
 }
+
+.imgCache1{
+  width: fit-content;
+}

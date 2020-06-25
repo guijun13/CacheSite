@@ -5,10 +5,10 @@ import img1 from '../../images/img1.png'
 
 function Page1(){
   const markdownPage5 = `
-  # A MEMORIA CACHE
+  # A memória cache
   
-  ### O que é? 
-  ** Uma memória menor que a principal, mas possui alta velocidade de busca! **
+  ## O que é? 
+  #### Uma memória menor que a principal, mas possui alta velocidade de busca!
 
   ** Para que serve? **
   Agilizar o processo de busca
@@ -35,7 +35,7 @@ function Page1(){
               <div className="texto">
                 <ReactMarkdown source={markdownPage5} />
               </div>
-              <img src={img1} alt="Imagem processador, cache e memoria"/>
+              <img className="imgCache1" src={img1} alt="Imagem processador, cache e memoria"/>
           </div>
           <div className="content-direita">
             <div className="texto">

@@ -12,7 +12,7 @@ function Page6(){
   // - O bloco com o contador mais alto é levado em consideração para fazer a substituição.
 
   const markdownPage6 = `
-  ### LRU (Least Recently Use)
+  ## LRU (Least Recently Use)
   Recente menos utilizado. Em determinado período de tempo, aqueles que estão a mais tempo sem uso saem
   
   **Problema:**
@@ -23,7 +23,7 @@ function Page6(){
   `;
 
   const markdownPage6a=`
-  ### FIFO (First In, First Out)
+  ## FIFO (First In, First Out)
   Primeiro a entrar, primeiro a sair. Remove o bloco que está a mais tempo na cache
 
   **Problema:**
@@ -39,13 +39,15 @@ function Page6(){
         <div className="content-esquerda">
           <div className="texto">
             <ReactMarkdown source={markdownPage6} />
-            <img src={LRU} alt="imagem lru"/>
+            <img style={{width: "450px"}} src={LRU} alt="imagem lru"/>
           </div>
         </div>
         <div className="content-direita">
           <div className="texto">
             <ReactMarkdown source={markdownPage6a} />
-            <img src={FIFO} alt="imagem fifo"/>
+            <img style={{
+              width: "430px"
+            }}src={FIFO} alt="imagem fifo"/>
           </div>
         </div>
       </div>

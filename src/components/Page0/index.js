@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactMarkdown from "react-markdown";
 import './styles.css';
+import imgCapa from "../../images/cacheCapa.jpeg";
 
 function Page0(){
   const markdownPage5 = `
@@ -25,6 +26,7 @@ function Page0(){
           <div className="content-esquerda">
             <div className="titulo">
             <ReactMarkdown source={markdownPage5} />
+            <img src={imgCapa} alt="Imagem memoria cache"/>
             </div>
           </div>
           <div className="content-direita">

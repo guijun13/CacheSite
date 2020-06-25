@@ -25,9 +25,9 @@ function Page4(){
   const markdownPage4a = `
   ### Campos
 
-  - Tag ou rótulo.
-  - Set ou conjunto.
-  - Deslocamento (byte offset ou word offset).
+  - ** Tag ou rótulo **
+  - ** Set ou conjunto **
+  - ** Deslocamento (byte offset ou word offset) **
   
   Cada bloco da memória principal vai ser associada a um conjunto v e dentro desse um conjunto aquele bloco vai ter k linhas que podem ser usados para alocar o bloco.
   `;

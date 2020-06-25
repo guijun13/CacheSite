@@ -8,11 +8,12 @@
   --color-azulEscuro: #10375C;
   --color-branco: #f4f6ff;
   --color-amarelo: #F3C623;
+  --color-cinza: #b9b9b9;
 }
 
 body {
   font: 400 14px PT Sans, sans-serif;
-  background: #f0f0f5;
+  background: #f4f6ff;
   -webkit-font-smoothing: antialiased; /* Suavização da fonte no chrome */
 }
 

@@ -3,15 +3,15 @@ import ReactMarkdown from "react-markdown";
 
 function Page12(){
   const markdownPage5 = `
-  ## Tipos
+  # Tipos
 
-  ### Inclusiva
+  ## Inclusiva
   
   Nesse tipo os dados que está na L1 também na L2.
   
   - A vantagem desse tipo é que os dispositivos de entrada/saída quando precisam pegar um dado da cache só precisam verificar ele na L2.
   
-  ### Exclusiva
+  ## Exclusiva
   
   É garantido que o dado vá estar em pelo uma das caches (L1 ou L2).
   
@@ -21,9 +21,9 @@ function Page12(){
     `;
 
   const markdownPage5a=`
-  ## Caches unificadas/separadas
+  # Caches unificadas/separadas
   
-  ### Unificada
+  ## Unificada
   
   Uma única memória cache é utilizada para armazenara as referências de dados e instruções.
   
@@ -33,7 +33,7 @@ function Page12(){
   - Apenas uma memória cache precisa ser projetada e implementada.
   - É utilizada nos níveis L2 e L3.
   
-  ### Separada
+  ## Separada
   
   Existe uma cache dedicada para os dados e outra cache para as instruções.
   

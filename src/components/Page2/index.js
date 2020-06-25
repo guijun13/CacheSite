@@ -5,9 +5,9 @@ import img2 from '../../images/img2.png'
 
 function Page2(){
   const markdownPage5 = `
-  ## Certo, já sabemos o que é, mas como é esse armazenamento?
+  ### Certo, já sabemos o que é, mas como é esse armazenamento?
 
-  ### Direto:
+  ## Direto:
   
   Nesse tipo cada bloco da memória principal é mapeado em um único bloco da cache.
   Ele pode ser expresso pela equação:
@@ -32,10 +32,10 @@ function Page2(){
 
   A divisão dos endereços da cache vai ser feita com campos, sendo eles:
 
-  - Tag ou rótulo (já que vários blocos da memória principal podem ser mapeados em um mesmo bloco da cache).
-  - Index: resultado da operação módulo.
-  - Deslocamento (byte offset ou word offset).
-  - Bit de validade (para dizer se a entrada da cache contém um endereço válido).
+  - ** Tag ou rótulo: ** (já que vários blocos da memória principal podem ser mapeados em um mesmo bloco da cache).
+  - ** Index: ** resultado da operação módulo.
+  - ** Deslocamento ** (byte offset ou word offset).
+  - ** Bit de validade ** (para dizer se a entrada da cache contém um endereço válido).
   `;
 
   return(

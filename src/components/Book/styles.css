@@ -2,24 +2,28 @@
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: center;
 }
 
 .sumario{
   margin-bottom: 20px;
+  border-bottom: solid 5px var(--color-amarelo);
 }
 
 .botoes{
   width: 300px;
-  margin: 20px;
+  margin: 15px;
+  margin-top: 5px;
   display: flex;
   flex-direction: column;
 }
 
 .btn{
-  background-color: #F4F6FF;
+  background-color: var(--color-branco);
   margin: 0px 5px;
   padding: 7px;
   border: none;
+  border-bottom: solid 0.5px var(--color-cinza);
   font-size: 16px;
   font-weight: bold;
   text-align: left;
@@ -32,13 +36,12 @@
 
 .btn:hover{
   filter: brightness(90%);
-  /* text-decoration: underline; */
   cursor: pointer;
 }
 
 .btn:disabled{
   color: #000;
-  background-color: rgb(185, 185, 185);
+  background-color: var(--color-cinza);
   cursor: initial;
   opacity: 1;
 }
@@ -46,7 +49,6 @@
 
 .book-content{
   margin-right: 10px;
-  /* display: hidden; */
 }
 
 .App-pages {
@@ -63,7 +65,7 @@
   display: grid;
   grid-template: "esquerdo direito"
                 / 1fr 1fr;
-  color: white;
+  color: #ffffff;
   height: 100%;
 }
 

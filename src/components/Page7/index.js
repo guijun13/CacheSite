@@ -10,14 +10,14 @@ import aleatorio from '../../images/aleatorio.png';
 
 function Page7(){
   const markdownPage5 = `
-  ### LFU (Least Frequently Used)
+  ## LFU (Least Frequently Used)
   Frequente menos utilizado. Em determinado intervalo de tempo, conta-se quantas vezes uma informação foi utilizada, saindo a menos utilizada
   
   O tempo nesse método utiliza-se da mesma estratégia de contadores da LRU e então é feito o cálculo desse contador pelo tempo.
   `;
 
   const markdownPage5a=`
-  ### Aleatório
+  ## Aleatório
   Um contador é incrementado até precisar de espaço, quando ocorrer, o enderço de memória igual ao contador sai
   
   **Problema:**
@@ -31,13 +31,17 @@ function Page7(){
         <div className="content-esquerda">
           <div className="texto">
             <ReactMarkdown source={markdownPage5} />
-            <img src={LFU} alt=""/>
+            <img style={{
+              width: "450px"
+            }} src={LFU} alt=""/>
           </div>
         </div>
         <div className="content-direita">
           <div className="texto">
             <ReactMarkdown source={markdownPage5a} />
-            <img src={aleatorio} alt=""/>
+            <img style={{
+              width: "450px"
+            }} src={aleatorio} alt=""/>
           </div>
         </div>
       </div>
